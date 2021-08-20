@@ -1,0 +1,1 @@
+Este é um projeto de aula sobre GIT e GitHub para os alunos do SENAC.

@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Aula de Git</title>
+    <link rel="stylesheet" type="text/css" href="lista.css">
     <script type ="text/javascript">
         alert("Olá Mundo");
         var myHeading = document.querySelector('h1');
@@ -11,5 +12,66 @@
 </head>
 <body>
     <h1>Primeiro teste sobre GIT e GITHUB</h1>
+    <form method="GET"  style="background-color: #FF4F21;">
+		<label>Nome:</label>
+		<input type="text" name="nome_completo" placeholder="Seu nome"><br><br>
+		<label>Email:</label>
+		<input type="email" name="email" placeholder="Seu melhor email"><br><br>
+		<label>Senha:</label>
+		<input type="password" name="senha" placeholder="Senha com 6 caracteres"> <br><br>
+
+		<input type="radio" name="num_tur" value="turma_1">Turma 1<br>
+		<input type="radio" name="num_tur" value="turma_2">Turma 2<br>
+		<input type="radio" name="num_tur" value="turma_3">Turma 3<br>
+		<input type="radio" name="num_tur" value="turma_4">Turma 4<br><br>
+
+		<input type="checkbox" name="checar" value="a"> Marcar 1<br>
+		<input type="checkbox" name="checar" value="b"> Marcar 2<br>
+		<input type="checkbox" name="checar" value="c"> Marcar 3<br>
+		<select name="nivel_acesso">
+			<option value="">Selecione</option>
+			<option value="administrador">Administrador</option>
+			<option value="financeiro">Financeiro</option>
+			<option value="cliente">Cliente</option>
+		</select>
+		<br><br>
+		<textarea name="mensagem" rows="10" cols="30"></textarea><br><br>
+
+		<input type="submit" value="Tipo Input"><br><br>
+		<button type="button" onclick="alert('Tem certeza?')">Tipo Button</button> <!-- quando usa o tipo button pode colocar javascript direto no onclick -->
+	</form>
+
+    <ul>
+        <li><a href="#">Planos</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Teste</a></li>
+        <li><a href="#">blabla</a></li>
+    </ul>
+    <div id="teste">
+        blavla
+    </div><br><br>
+
+    <div id="menu">
+        teste
+    </div><br><br>
+
+    <div id="a">
+        lucas<br>
+        lucas<br>
+        lucas<br>
+        lucas<br>
+    </div>
+    <br><br>
+    <div id="b">
+        lucas<br>
+        lucas<br>
+        lucas<br>
+        lucas<br>
+    </div><br><br>
+    <p class="classe1">Teste com Classes</p>
+    <p class="classe2">Teste com Classes</p>
+    <p class="classe3">Teste com Classes</p>
+    <p class="classe4">Teste com Classes</p>
+    <p class="classe5">Teste com Classes</p>
 </body>
 </html>
